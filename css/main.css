@@ -1,0 +1,267 @@
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+html {
+margin: 0;
+padding: 0;
+}
+
+body {
+	color: white;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.conteiner {
+	width: 1170px;
+	margin: 0 auto;
+
+}
+
+.header {
+	background: rgba(77,189,253,1);
+	background: -moz-linear-gradient(-45deg, rgba(77,189,253,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,189,253,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(77,189,253,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(77,189,253,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(77,189,253,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(77,189,253,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbdfd', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 62px;
+	color: fff;
+	padding-bottom: 145px;
+
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer	{
+	margin-top: 160px;
+	width: 565px;
+}
+
+.title	{
+	font-size: 37px;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.intro {
+	font-size: 16px;
+	margin-bottom: 45px;
+	width: 410px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	margin-top: 47px;
+}
+
+.btn {
+	background: #ffd429;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	width: 220px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #e6ba0a;
+}
+
+
+.desktop {
+	margin-top: 55px;
+}
+
+.section-title {
+	font-family: 'Ubuntu', sans-serif;
+	color: black;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.future {
+	padding-top: 105px;
+	padding-bottom: 120px;
+}
+
+
+.variants {
+
+display: flex;
+justify-content: space-between;
+color: black;
+margin-top: 78px;
+}
+
+
+.variant-title {
+	font-size: 19px;
+	text-align: center;
+}
+
+.variant-text	{
+	margin-top: 7px;
+	text-align: center;
+}
+
+
+.variant {
+	width: 305px;
+	background: url('../img/icon1.jpg') no-repeat top;
+	padding-top: 100px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.variant-trip	{
+	width: 275px;
+	background: url('../img/icon2.jpg') no-repeat top;
+}
+
+.variant-gold	{
+	background: url('../img/icon3.jpg') no-repeat top;
+}
+
+
+.ticket	{
+	background: #ecf3f8;
+	padding-top: 105px;
+	padding-bottom: 100px;
+}
+
+.input	{
+	width: 343px;
+	border: 2px solid #bbbbbb;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	height: 47px;
+	border-radius: 5px;
+	padding-left: 24px;
+	color: #bbbbbb;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 15px;
+}
+
+
+
+.form {
+	padding-top: 65px;
+}
+
+.btn-form {
+	border: none;
+	cursor: pointer;
+	margin-left: 415px;
+    
+
+}
+
+::placeholder {
+	opacity: 0.5;
+}
+
+.footer {
+	padding-top: 62px;
+	padding-bottom: 64px;
+	background: #164d7a;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+
+}
+
+/*Responsive*/
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.conteiner {
+		width: 960px
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.conteiner {
+		width: 720px
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		width: 100%
+	}
+	.title {
+		width: auto;
+	}
+	.desktop {
+		display: block;
+		width: 641px;
+		margin: 72px auto 0;
+	}
+	.variants {
+		flex-direction: column;
+	}
+	.variant {
+		width: auto;
+		margin-bottom: 20px	
+	}
+
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.conteiner {
+		width: 540px
+	}
+	.desktop {
+		width: 	100%
+	}
+	.input	{
+		width: 	100%;
+	}
+	.btn {
+		margin-left: 0;
+		margin-top: 15px;
+		width: 	100%;
+	}
+
+}
+
+/* 0px - 576px */
+@media screen and (max-width: 576px) {
+	.conteiner {
+		width: 90%
+	}
+}
